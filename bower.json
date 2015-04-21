@@ -1,0 +1,10 @@
+{
+    "name": "project-setup",
+    "version": "1.0.0",
+    "main": "",
+    "devDependencies": {
+        "bootstrap": "latest",
+        "jquery": "^2.0.3",
+        "angular": "latest"
+    }
+}

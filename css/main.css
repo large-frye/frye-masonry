@@ -1,0 +1,95 @@
+@font-face{ 
+    font-family: 'BEBAS'; 
+    src: url('../vendor/web\ fonts/bebas_regular_macroman/BEBAS___-webfont.eot'); 
+    src: url('../vendor/web\ fonts/bebas_regular_macroman/BEBAS___-webfont.eot?iefix') format('eot'), 
+         url('../vendor/web\ fonts/bebas_regular_macroman/BEBAS___-webfont.woff') format('woff'), 
+         url('../vendor/web\ fonts/bebas_regular_macroman/BEBAS___-webfont.ttf') format('truetype'), 
+         url('../vendor/web\ fonts/bebas_regular_macroman/BEBAS___-webfont.svg#webfont') format('svg'); 
+}
+
+@font-face{ 
+    font-family: 'CallunaSansRegular'; 
+    src: url('../vendor/web\ fonts/callunasans_regular_macroman/CallunaSansRegular-webfont.eot'); 
+    src: url('../vendor/web\ fonts/callunasans_regular_macroman/CallunaSansRegular-webfont.eot?iefix') format('eot'), 
+    url('../vendor/web\ fonts/callunasans_regular_macroman/CallunaSansRegular-webfont.woff') format('woff'), 
+    url('../vendor/web\ fonts/callunasans_regular_macroman/CallunaSansRegular-webfont.ttf') format('truetype'), 
+    url('../vendor/web\ fonts/callunasans_regular_macroman/CallunaSansRegular-webfont.svg#webfont') format('svg'); 
+}  
+
+body {
+    padding-top: 70px;
+    /* background: url('http://bgfons.com/upload/brick_texture3412.jpg') repeat-x, repeat-y; */
+}
+
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+.navbar a {
+    font-family: 'BEBAS', Helvetica, sans-serif;
+}
+
+p, li, ol, a, dt, dd {
+    font-family: 'CallunaSansRegular', Helvetica, sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: #B71C1C;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand {
+    color: rgb(105,1,17);
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-brand:hover {
+    background-color: #C62828;
+    color: #f2f2f2;
+    height: 48px;
+}
+
+.left-rail-nav {
+    position: absolute;
+    left: 30%;
+}
+
+.page-header {
+    word-spacing: 4px;
+}
+
+.section-header {
+    word-spacing: 4px;
+    border-bottom: 1px dotted #bbb;    
+    padding: 10px 0;
+}
+
+.info-block {
+    
+}
+
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0;
+}
+
+.header-img {
+    background-image: url("/static/brickwall/brickwall.png");
+    height: 100px;
+    margin: -20px 0;
+    padding: 1em;
+}
+
+

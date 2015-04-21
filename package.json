@@ -1,0 +1,9 @@
+{
+  "name": "Frye-Masonry",
+  "description": "Website",
+  "author": "Andrew Frye <a.frye4@gmail.com>",
+  "dependencies": {
+    "bootstrap": "latest",
+    "jquery": "latest"
+  }
+}
